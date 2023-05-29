@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "react_tailwind": {
+      "frontend": {
+        "entrypoint": "index.html"
+      },
+      "source": [
+        "src/",
+        "dist/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
